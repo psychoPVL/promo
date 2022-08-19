@@ -1,0 +1,38 @@
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px 10px;
+}
+.none {
+    display: none;
+}
+.title {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+.accordeon__title {
+    color: rgb(86, 154, 233);
+    border: 1px solid rgb(86, 154, 233);
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.accordeon__title:hover {
+    color: #fff;
+    background-color: rgb(86, 154, 233);
+    box-shadow: 0 0 10px rgb(86, 154, 233);
+}
+.accordeon__text {
+    font-size: 20px;
+    color: rgb(86, 154, 233);
+    padding: 0 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(86, 154, 233);
+    margin-bottom: 20px;
+}
+.accordeon__text:hover {
+    color: #fff;
+    background-color: rgb(86, 154, 233);
+    box-shadow: 0 0 10px rgb(86, 154, 233);
+}

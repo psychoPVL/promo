@@ -1,0 +1,41 @@
+
+
+//****************BREAKPOINT****************
+
+
+@media only screen and (max-width : 1366px){
+   .container{
+      max-width: 1140px;
+   }
+}
+@media only screen and (max-width : 1199px){
+   .container{
+      max-width: 970px;
+   }
+}
+@media only screen and (max-width : 991px){
+   .container{
+      max-width: 750px;
+   }
+}
+@media only screen and (max-width : 767px){
+   .container{
+      max-width: 550px;
+   }
+}
+@media only screen and (max-width : 575px){
+   .container{
+      width: 100%;
+      padding-left: 15px;
+      padding-right: 15px;
+   }
+}
+@media only screen and (max-width : 360px){
+   body, body > *{
+      width: auto;
+      min-width: 360px;
+   }
+}
+
+
+//****************BREAKPOINT****************

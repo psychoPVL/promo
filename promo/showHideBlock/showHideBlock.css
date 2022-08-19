@@ -1,0 +1,38 @@
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px 10px;
+}
+.none {
+    display: none;
+}
+.title {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+.button {
+    color: rgb(86, 154, 233);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(86, 154, 233);
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.button:hover {
+    color: #fff;
+    background-color: rgb(86, 154, 233);
+    box-shadow: 0 0 10px rgb(86, 154, 233);
+}
+.text {
+    font-size: 20px;
+    color: rgb(86, 154, 233);
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid rgb(86, 154, 233);
+}
+.text:hover {
+    color: #fff;
+    background-color: rgb(86, 154, 233);
+    box-shadow: 0 0 10px rgb(86, 154, 233);
+}
